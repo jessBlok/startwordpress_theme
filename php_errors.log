@@ -1,0 +1,122 @@
+[10-Jun-2016 08:27:42 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/wp-content/themes/startwordpress/functions.php on line 67
+[10-Jun-2016 08:27:42 UTC] PHP Stack trace:
+[10-Jun-2016 08:27:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[10-Jun-2016 08:27:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[10-Jun-2016 08:27:42 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[10-Jun-2016 08:27:42 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[10-Jun-2016 08:29:43 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/wp-content/themes/startwordpress/functions.php on line 76
+[10-Jun-2016 08:29:43 UTC] PHP Stack trace:
+[10-Jun-2016 08:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[10-Jun-2016 08:29:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[10-Jun-2016 08:29:43 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[10-Jun-2016 08:29:43 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jun-2016 13:17:28 UTC] PHP Warning:  require(/home/ubuntu/workspace/wp-content/plugins/wpml/inc/functions-helpers.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/wpml/sitepress.php on line 32
+[15-Jun-2016 13:17:28 UTC] PHP Stack trace:
+[15-Jun-2016 13:17:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:17:28 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[15-Jun-2016 13:17:28 UTC] PHP   3. include_once() /home/ubuntu/workspace/wp-admin/includes/plugin.php:552
+[15-Jun-2016 13:17:28 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/wpml/inc/functions-helpers.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/wpml/sitepress.php on line 32
+[15-Jun-2016 13:17:28 UTC] PHP Stack trace:
+[15-Jun-2016 13:17:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:17:28 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[15-Jun-2016 13:17:28 UTC] PHP   3. include_once() /home/ubuntu/workspace/wp-admin/includes/plugin.php:552
+[15-Jun-2016 13:17:30 UTC] PHP Warning:  require(/home/ubuntu/workspace/wp-content/plugins/wpml/inc/functions-helpers.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/wpml/sitepress.php on line 32
+[15-Jun-2016 13:17:30 UTC] PHP Stack trace:
+[15-Jun-2016 13:17:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:17:30 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[15-Jun-2016 13:17:30 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1934
+[15-Jun-2016 13:17:30 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/wpml/inc/functions-helpers.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/wpml/sitepress.php on line 32
+[15-Jun-2016 13:17:30 UTC] PHP Stack trace:
+[15-Jun-2016 13:17:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:17:30 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[15-Jun-2016 13:17:30 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1934
+[15-Jun-2016 13:17:32 UTC] PHP Warning:  require_once(embedded/wpml/commons/autoloader.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/wpml string translation/plugin.php on line 24
+[15-Jun-2016 13:17:32 UTC] PHP Stack trace:
+[15-Jun-2016 13:17:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:17:32 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[15-Jun-2016 13:17:32 UTC] PHP   3. include_once() /home/ubuntu/workspace/wp-admin/includes/plugin.php:552
+[15-Jun-2016 13:17:32 UTC] PHP Fatal error:  require_once(): Failed opening required 'embedded/wpml/commons/autoloader.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/wpml string translation/plugin.php on line 24
+[15-Jun-2016 13:17:32 UTC] PHP Stack trace:
+[15-Jun-2016 13:17:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:17:32 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[15-Jun-2016 13:17:32 UTC] PHP   3. include_once() /home/ubuntu/workspace/wp-admin/includes/plugin.php:552
+[15-Jun-2016 13:17:34 UTC] PHP Warning:  require_once(embedded/wpml/commons/autoloader.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/wpml string translation/plugin.php on line 24
+[15-Jun-2016 13:17:34 UTC] PHP Stack trace:
+[15-Jun-2016 13:17:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:17:34 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[15-Jun-2016 13:17:34 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1934
+[15-Jun-2016 13:17:34 UTC] PHP Fatal error:  require_once(): Failed opening required 'embedded/wpml/commons/autoloader.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/wpml string translation/plugin.php on line 24
+[15-Jun-2016 13:17:34 UTC] PHP Stack trace:
+[15-Jun-2016 13:17:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:17:34 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[15-Jun-2016 13:17:34 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1934
+[15-Jun-2016 13:18:00 UTC] PHP Warning:  require(/home/ubuntu/workspace/wp-content/plugins/wpml/inc/functions-helpers.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/wpml/sitepress.php on line 32
+[15-Jun-2016 13:18:00 UTC] PHP Stack trace:
+[15-Jun-2016 13:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:18:00 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[15-Jun-2016 13:18:00 UTC] PHP   3. include_once() /home/ubuntu/workspace/wp-admin/includes/plugin.php:552
+[15-Jun-2016 13:18:00 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/wpml/inc/functions-helpers.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/wpml/sitepress.php on line 32
+[15-Jun-2016 13:18:00 UTC] PHP Stack trace:
+[15-Jun-2016 13:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:18:00 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[15-Jun-2016 13:18:00 UTC] PHP   3. include_once() /home/ubuntu/workspace/wp-admin/includes/plugin.php:552
+[15-Jun-2016 13:18:02 UTC] PHP Warning:  require(/home/ubuntu/workspace/wp-content/plugins/wpml/inc/functions-helpers.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/wpml/sitepress.php on line 32
+[15-Jun-2016 13:18:02 UTC] PHP Stack trace:
+[15-Jun-2016 13:18:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:18:02 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[15-Jun-2016 13:18:02 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1934
+[15-Jun-2016 13:18:02 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/wpml/inc/functions-helpers.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/wpml/sitepress.php on line 32
+[15-Jun-2016 13:18:02 UTC] PHP Stack trace:
+[15-Jun-2016 13:18:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:18:02 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[15-Jun-2016 13:18:02 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1934
+[15-Jun-2016 13:18:34 UTC] PHP Warning:  require_once(embedded/wpml/commons/autoloader.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/wpml string translation/plugin.php on line 24
+[15-Jun-2016 13:18:34 UTC] PHP Stack trace:
+[15-Jun-2016 13:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:18:34 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[15-Jun-2016 13:18:34 UTC] PHP   3. include_once() /home/ubuntu/workspace/wp-admin/includes/plugin.php:552
+[15-Jun-2016 13:18:34 UTC] PHP Fatal error:  require_once(): Failed opening required 'embedded/wpml/commons/autoloader.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/wpml string translation/plugin.php on line 24
+[15-Jun-2016 13:18:34 UTC] PHP Stack trace:
+[15-Jun-2016 13:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:18:34 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[15-Jun-2016 13:18:34 UTC] PHP   3. include_once() /home/ubuntu/workspace/wp-admin/includes/plugin.php:552
+[15-Jun-2016 13:18:36 UTC] PHP Warning:  require_once(embedded/wpml/commons/autoloader.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/wpml string translation/plugin.php on line 24
+[15-Jun-2016 13:18:36 UTC] PHP Stack trace:
+[15-Jun-2016 13:18:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:18:36 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[15-Jun-2016 13:18:36 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1934
+[15-Jun-2016 13:18:36 UTC] PHP Fatal error:  require_once(): Failed opening required 'embedded/wpml/commons/autoloader.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/wpml string translation/plugin.php on line 24
+[15-Jun-2016 13:18:36 UTC] PHP Stack trace:
+[15-Jun-2016 13:18:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jun-2016 13:18:36 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[15-Jun-2016 13:18:36 UTC] PHP   3. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1934
+[04-Jul-2016 11:26:51 UTC] WordPress-Datenbank-Fehler Duplicate entry '7079da0982f3d98e8a287de7ffc3b2c2' for key 'uc_domain_name_context_md5' für Abfrage INSERT INTO `wp_icl_strings` (`language`, `context`, `gettext_context`, `domain_name_context_md5`, `name`, `value`, `status`) VALUES ('en', 'Widgets', '', '7079da0982f3d98e8a287de7ffc3b2c2', 'widget title - 341825a909ae0a19dd9dbea98ef3e021', 'Recent Posts', '0') von require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, WPML_String_Translation->initialize_wp_and_widget_strings, __icl_st_init_register_widget_titles, icl_register_string, WPML_Admin_String_Filter->register_string, WPML_Admin_String_Filter->save_string
+[04-Jul-2016 11:26:51 UTC] WordPress-Datenbank-Fehler Duplicate entry 'a48c6eb3c5890b18ba90320a27899305' for key 'uc_domain_name_context_md5' für Abfrage INSERT INTO `wp_icl_strings` (`language`, `context`, `gettext_context`, `domain_name_context_md5`, `name`, `value`, `status`) VALUES ('en', 'Widgets', '', 'a48c6eb3c5890b18ba90320a27899305', 'widget title - 69e7df6b9f7404b4007d936978a45c81', 'Recent Comments', '0') von require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, WPML_String_Translation->initialize_wp_and_widget_strings, __icl_st_init_register_widget_titles, icl_register_string, WPML_Admin_String_Filter->register_string, WPML_Admin_String_Filter->save_string
+[04-Jul-2016 11:26:51 UTC] WordPress-Datenbank-Fehler Duplicate entry '478de4f6942954a0e26a7509c7d6152c' for key 'uc_domain_name_context_md5' für Abfrage INSERT INTO `wp_icl_strings` (`language`, `context`, `gettext_context`, `domain_name_context_md5`, `name`, `value`, `status`) VALUES ('en', 'Widgets', '', '478de4f6942954a0e26a7509c7d6152c', 'widget title - 178fde647037235223ac2a188a7106b1', 'Archives', '0') von require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, WPML_String_Translation->initialize_wp_and_widget_strings, __icl_st_init_register_widget_titles, icl_register_string, WPML_Admin_String_Filter->register_string, WPML_Admin_String_Filter->save_string
+[04-Jul-2016 11:26:51 UTC] WordPress-Datenbank-Fehler Duplicate entry '5977452b184084c8b2c0d046daf75b27' for key 'uc_domain_name_context_md5' für Abfrage INSERT INTO `wp_icl_strings` (`language`, `context`, `gettext_context`, `domain_name_context_md5`, `name`, `value`, `status`) VALUES ('en', 'Widgets', '', '5977452b184084c8b2c0d046daf75b27', 'widget title - af1b98adf7f686b84cd0b443e022b7a0', 'Categories', '0') von require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, WPML_String_Translation->initialize_wp_and_widget_strings, __icl_st_init_register_widget_titles, icl_register_string, WPML_Admin_String_Filter->register_string, WPML_Admin_String_Filter->save_string
+[04-Jul-2016 11:26:51 UTC] WordPress-Datenbank-Fehler Duplicate entry '26a7f7efe61aa93765d79561fb28d76c' for key 'uc_domain_name_context_md5' für Abfrage INSERT INTO `wp_icl_strings` (`language`, `context`, `gettext_context`, `domain_name_context_md5`, `name`, `value`, `status`) VALUES ('en', 'Widgets', '', '26a7f7efe61aa93765d79561fb28d76c', 'widget title - b6755d218d5f4e1cef9cce9cc39aeda9', 'Meta', '0') von require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, WPML_String_Translation->initialize_wp_and_widget_strings, __icl_st_init_register_widget_titles, icl_register_string, WPML_Admin_String_Filter->register_string, WPML_Admin_String_Filter->save_string
+[04-Jul-2016 11:26:51 UTC] WordPress-Datenbank-Fehler Duplicate entry '97f6a29c00fe31b658db3fd2a9ff6b34' for key 'uc_domain_name_context_md5' für Abfrage INSERT INTO `wp_icl_strings` (`language`, `context`, `gettext_context`, `domain_name_context_md5`, `name`, `value`, `status`) VALUES ('en', 'Widgets', '', '97f6a29c00fe31b658db3fd2a9ff6b34', 'widget title - 8ff922bbcd8ad41cdfc48d3c5163b2ab', 'Calendar', '0') von require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, WPML_String_Translation->initialize_wp_and_widget_strings, __icl_st_init_register_widget_titles, icl_register_string, WPML_Admin_String_Filter->register_string, WPML_Admin_String_Filter->save_string
+[04-Jul-2016 13:02:29 UTC] PHP Parse error:  syntax error, unexpected 'custom' (T_STRING) in /home/ubuntu/workspace/wp-content/themes/startwordpress/functions.php on line 82
+[04-Jul-2016 13:02:29 UTC] PHP Stack trace:
+[04-Jul-2016 13:02:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Jul-2016 13:02:29 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Jul-2016 13:02:29 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Jul-2016 13:02:29 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-Jul-2016 13:13:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/wp-content/themes/startwordpress/functions.php on line 91
+[04-Jul-2016 13:13:54 UTC] PHP Stack trace:
+[04-Jul-2016 13:13:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Jul-2016 13:13:54 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Jul-2016 13:13:54 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Jul-2016 13:13:54 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-Jul-2016 13:35:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/wp-content/themes/startwordpress/functions.php on line 131
+[04-Jul-2016 13:35:40 UTC] PHP Stack trace:
+[04-Jul-2016 13:35:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Jul-2016 13:35:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Jul-2016 13:35:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Jul-2016 13:35:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[05-Jul-2016 08:54:32 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/wp-content/themes/startwordpress/functions.php on line 93
+[05-Jul-2016 08:54:32 UTC] PHP Stack trace:
+[05-Jul-2016 08:54:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Jul-2016 08:54:32 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[05-Jul-2016 08:54:32 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Jul-2016 08:54:32 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
