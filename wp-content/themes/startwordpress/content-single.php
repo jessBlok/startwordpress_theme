@@ -5,7 +5,7 @@
    	<hr>
    	<div class = "container">
    	<div class = "row">
-        <div  id= "single-post-photo"> <img class = "img-responsive aligncenter" src= "<?php the_post_thumbnail ()?> </div>
+        <div  id= "single-post-photo"> <?php the_post_thumbnail ('medium', array( 'class' => 'aligncenter' ))?> </div>
     </div> <!-- /row -->
     </div> <!-- /container -->
 	

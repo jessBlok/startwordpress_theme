@@ -3,10 +3,11 @@
 
 <div class="row" id = "blog-section">
     
+    <div class = "container">
     
-    
-    <h1><?php  _e('Blog', 'startwordpress')?></h1>
-            
+    <hr>
+    <h1><?php  _e('Our Blog', 'startwordpress')?></h1>
+    <hr>        
             <?php 
                 $count=0; 
                 query_posts('posts_per_page=9'); 
@@ -16,7 +17,7 @@
             <div class="col-md-4 post-div same-height">
                        <div class = "row ">
                         <a href="<?php the_permalink(); ?>">
- 	                    <img class ="img-thumbnail" src ="<?php the_post_thumbnail();?>
+ 	                   <?php the_post_thumbnail(array(250, 300), array( 'class' => 'aligncenter' ) );?>
 	                   
 	                    <div class = "entry-title">
 	                    <h3><?php the_title (); ?></h3>
@@ -50,4 +51,5 @@
     </div>
     </div>
     </div>
+    
     

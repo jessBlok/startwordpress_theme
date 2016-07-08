@@ -208,7 +208,7 @@ h6, .h6 {
 }
 
 #ssw-intro-image {
-  background: #000 url("https://wpbootstrap-jessblokland.c9users.io/wp-content/uploads/2016/06/Untitled-design-1.jpg") center center;
+  background: #000 url("http://socialscienceworks.org/wp-content/uploads/2016/07/Untitled-design-1.jpg") center center;
   
   
 }
@@ -231,8 +231,16 @@ h6, .h6 {
   background-color: transparent;
   border:  1px solid #fff;
   margin: 0px;
-  
 }
+  
+  
+  
+
+
+.brand {
+  padding-left: 25px;
+}
+
 
 
 
@@ -245,24 +253,40 @@ h6, .h6 {
   height: 100%;
   margin: 0px auto;
   text-align: center;
+  vertical-align: middle;
+ 
 }
 
 .navbar-brand {
   height: 100%;
-  padding: 5px;
+  padding: 0px;
   margin: 0px;
+ 
 }
 
 #wp-menu {
-  padding: 20px;
-  background-color:; #fff;
+  padding: 45px;
+  background-color: #fff;
   float: right;
-  height: 100%;
+  vertical-align: middle;
+  
 }
+
+@media screen and (max-width:768px){
+#wp-menu {
+  padding: 45px;
+  background-color: #fff;
+  float: none;
+  vertical-align: middle;
+  
+}
+}
+
+
 
 .navbar .nav-collapse .nav {
   background-color: #fff;
-}
+    }
 
 
 /*Style Projects Section of Front Page*/
@@ -271,6 +295,7 @@ h6, .h6 {
 #projects-section {
   background-color: #fff;
   text-align: center;
+  
     }
 
 #projects-section h1 {
@@ -298,6 +323,7 @@ h6, .h6 {
   font-size: 20px;
   background-color: #fff;
   opacity: 0.7;
+
  
   }  
 
@@ -306,25 +332,25 @@ h6, .h6 {
 }
 
 #deliberation {
-  background: #000 url("https://wpbootstrap-jessblokland.c9users.io/wp-content/uploads/2016/06/darkened.jpg")  no-repeat;
-  height: 400px;
+  background: #000 url("http://socialscienceworks.org/wp-content/uploads/2016/07/darkened.jpg")  no-repeat;
+  height: 100%;
 }
 
 #second-opinions {
-  background: #000 url("https://wpbootstrap-jessblokland.c9users.io/wp-content/uploads/2016/06/354920832_3bcb5f5147_z.jpg") no-repeat;
-  height: 400px;
+  background: #000 url("http://socialscienceworks.org/wp-content/uploads/2016/07/354920832_3bcb5f5147_z.jpg") no-repeat;
+  height: 100%;
 }
 
 
 #training {
-  background: #000 url("https://wpbootstrap-jessblokland.c9users.io/wp-content/uploads/2016/06/15466144163_2a8fc9eca4_z.jpg") no-repeat;
-  height: 400px;
+  background: #000 url("http://socialscienceworks.org/wp-content/uploads/2016/07/15466144163_2a8fc9eca4_z.jpg") no-repeat;
+  height: 100%;
   
 }
   
 #science-watch {
-  background: #000 url("https://wpbootstrap-jessblokland.c9users.io/wp-content/uploads/2016/06/16955638562_90bb5452f7_z.jpg") no-repeat;
-  height: 400px;
+  background: #000 url("http://socialscienceworks.org/wp-content/uploads/2016/07/16955638562_90bb5452f7_z.jpg") no-repeat;
+  height: 100%;
   
 }  
   
@@ -347,8 +373,8 @@ h6, .h6 {
 /*Style Posts Section of Front Page*/
 
 .container-fluid {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 
@@ -398,9 +424,7 @@ h6, .h6 {
   
 }
 
-#post-category {
-    
-}
+
 
 #excerpt-content {
   font-family: "Open Sans";
@@ -414,7 +438,7 @@ h6, .h6 {
 
 #team-section {
   background-color: #000;
-  height: 100%px;
+  height: 100%;
   text-align: center;
   padding: 15px;
 }
@@ -548,6 +572,9 @@ margin-bottom: 20px;
    margin-right:auto;
  }
   
+.blog-image-small {
+  text-align: center;
+}
   
   Status API Training Shop Blog About 
 

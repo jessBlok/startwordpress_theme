@@ -20,7 +20,7 @@
   <body>
 
       <nav class="navbar navbar-default">
-  <div class="container-fluid">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,7 +30,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">
-        <img src ="https://wpbootstrap-jessblokland.c9users.io/wp-content/uploads/2016/06/ssw-logo-vector-e1465539460115.jpg">
+        <img src ="http://socialscienceworks.org/wp-content/uploads/2016/07/ssw_150_131.jpg" class = "brand">
       </a>
     </div>
 
