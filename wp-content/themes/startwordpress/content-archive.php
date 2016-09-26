@@ -1,50 +1,50 @@
 
 
 
-<div class="row" id = "blog-section">
+<div class="row">
     
-    <div class = "container">
+    <div class = "container" id= "blog-section">
     
     <hr>
     <h1><?php  _e('Our Blog', 'startwordpress')?></h1>
     <hr>        
             <?php 
                 $count=0; 
-                query_posts('posts_per_page=9'); 
+                query_posts('posts_per_page=27'); 
                 while (have_posts()) : the_post(); 
             ?>
                 
-            <div class="col-md-4 post-div same-height">
-                       <div class = "row ">
+            <div class="col-md-4 post-div">
+                      
                         <a href="<?php the_permalink(); ?>">
- 	                   <?php the_post_thumbnail(array(250, 300), array( 'class' => 'aligncenter' ) );?>
+ 	                   <?php the_post_thumbnail('medium', array( 'class' => 'aligncenter objectfit' ) );?>
 	                   
 	                    <div class = "entry-title">
 	                    <h3><?php the_title (); ?></h3>
         	              </a></div>
-                       </div> <!--End Row-->
-                   <div class ="row">
-                         <div class = "entry-meta col-xs-4" id="post-date"> 
+                       
+                   
+                         <div class = "entry-meta col-xs-12 centertext" id="post-date"> 
                             <i class="fa fa-calendar-o"></i> <?php the_date(); ?>
                          </div><!--End Col-->
-                        <div class = "entry-meta col-xs-8" id = "post-category"> 
-                             <i class="fa fa-folder-open"></i><?php the_category(); ?>
-                        </div> <!--End Col-->
-                </div><!--End Row-->
-                <div class ="row"> 
-                        <div class = "entry-meta col-xs-12"> 
-                            <i class="fa fa-tags" aria-hidden="true"></i>
-                             <?php the_tags(); ?>
-                        </div> <!--End Col-->
-                </div><!--End Row-->
-                <div class = "row">
+                    
+                
+                
+                
                     <div class = "col-xs-12" id = "excerpt-content" >
                      <?php the_excerpt();?>
-                       </div> <!--End Col-->
-               </div> <!--End Row-->
+                    </div> <!--End Col-->
+              
             </div> 
             <?php 
-         $count++; 
+         $count++;
+         if($count != 0 && $count % 3 == 0) { ?>
+       
+        <div class="clearfix"></div>
+
+      <?php
+       } 
+         
          endwhile; 
             ?>
         </div> <!--End Row End Container Fluid-->

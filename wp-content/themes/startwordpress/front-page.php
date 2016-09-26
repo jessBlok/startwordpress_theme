@@ -7,14 +7,15 @@
                 
                   
                  <h1> <strong> <?php  _e('Putting social science to use for modern democracies.','startwordpress')?> </strong></h1>
-                  <p><a class="btn btn-primary btn-lg" id= "jumbotron-button" href="#" role="button"><?php  _e ('Learn more', 'startwordpress')?></a></p>
+                  <div class = "container addspace">
+                 </div><!--End container addspace-->
             </div>   
     </div>
     
    <container>
         <div class = "container">
             <div class = "row" id = "intro-text-section">
-                <h3> <?php  _e ('Social Science Works is a social enterprise putting social science research to work for civil society and democratic decision making. It helps stakeholders that are affected by research to assess, via second opinions, the quality and reliability of this research. It helps people to understand and evaluate research and policy making via courses and workshops. And it critically researches academic research, education and practices. Strengthening the societal relevancy of social science and the quality of public decision making is our goal.', 'startwordpress')?></h3>
+                <h3> <?php  _e ('Social Science Works is a social enterprise using social scientific knowledge to improve civil society. We offer services based on social research that create value for agents in the public, the academic and the non-profit sectors.', 'startwordpress')?></h3>
             </div>
     </<div>
     
@@ -75,53 +76,42 @@
         
            
           
-           <div class="row" id = "blog-section">
+   <div class="row" id = "blog-section">
     
+        <div>
     
-    
-    <h1><?php  _e('Blog', 'startwordpress')?></h1>
-            
+    <h1><?php  _e('The SSW Blog', 'startwordpress')?></h1>
+      </div>       
             <?php 
                 $count=0; 
                 query_posts('posts_per_page=3'); 
                 while (have_posts()) : the_post(); 
             ?>
-                
-            <div class="col-md-4 post-div ">
-                       <div class = "row center-block">
-                          <div class = "blog-image-small" >
+          
+        
+        <div class="col-md-4 post-div ">
+              
+                    <div>
                         <a href="<?php the_permalink(); ?>">
- 	                    <?php the_post_thumbnail(array(250, 300), array( 'class' => 'aligncenter' ) );?>
-	                       </div>
-	                    <div class = "entry-title">
+ 	                    <?php the_post_thumbnail('medium', array('class' => 'aligncenter objectfit'));;?>
+	               </div>
+	               <div class = "entry-title">
 	                    <h3><?php the_title (); ?></h3>
-        	              </a></div>
-                       </div> <!--End Row-->
-                   <div class ="row">
-                         <div class = "entry-meta col-xs-4" id="post-date"> 
-                            <i class="fa fa-calendar-o"></i> <?php the_date(); ?>
-                         </div><!--End Col-->
-                        <div class = "entry-meta col-xs-8" id = "post-category"> 
-                             <i class="fa fa-folder-open"></i><?php the_category(); ?>
-                        </div> <!--End Col-->
-                </div><!--End Row-->
-                <div class ="row"> 
-                        <div class = "entry-meta col-xs-12"> 
-                            <i class="fa fa-tags" aria-hidden="true"></i>
-                             <?php the_tags(); ?>
-                        </div> <!--End Col-->
-                </div><!--End Row-->
-                <div class = "row">
-                    <div class = "col-xs-12" id = "excerpt-content" >
+        	              </a>
+        	       </div>
+                   <div class = "entry-meta col-xs-12 aligncenter" id="post-date"> 
+                        <p>By <?php the_author(); ?> on  <?php the_date(); ?></p>
+                   </div><!--End Col-->
+                   <div class = "col-xs-12" id = "excerpt-content" >
                      <?php the_excerpt();?>
-                       </div> <!--End Col-->
-               </div> <!--End Row-->
+                    </div> <!--End Col-->
+               
             </div> 
             <?php 
          $count++; 
          endwhile;
             ?>
-        </div> <!--End Row End Container Fluid-->
+        </div><!--End Row -->
     </div>
     </div>
     
@@ -133,7 +123,7 @@
     
     
     <div class = "row" id = "team-section">
-        <h1><?php  _e('Our Team', 'startwordpress')?></h1>
+        <h1><?php  _e('Meet the Team', 'startwordpress')?></h1>
           <div class="col-md-4""team-members">
               
               <img src="http://socialscienceworks.org/wp-content/uploads/2016/07/blokland_square.jpg"  class="img-circle circle-photos" "img-responsive">
@@ -161,13 +151,19 @@
         <h1><?php  _e('Partners', 'startwordpress')?></h1>
     
     <div>
-    <a href="https://www.zab-brandenburg.de/de"> 
+    <a href="https://www.zab-brandenburg.de/de" target = "_blank"> 
     <img class = "partner-logos" src = "https://www.zab-brandenburg.de/sites/www.zab-brandenburg.de/themes/zab/images/logos/logo-www.zab-brandenburg.de-de.png">
     </a>
-    <a href="https://www.zab-brandenburg.de/de"> 
+    <a href="https://www.zab-brandenburg.de/de" target = "_blank"> 
     <img class = "partner-logos" src = "http://www.brandenburg.de/media_fast/lbm1.a.4867.de/sixcms_filename/logo0000.gif">
     </a>
+    <a href="http://www.politische-bildung-brandenburg.de/" target = "_blank"> 
+    <img class = "partner-logos" src = "http://socialscienceworks.org/wp-content/uploads/2016/08/logo_rot_schriftzug.jpg" >
     </div>
+    <div>
+    <a href="http://www.bamf.de/DE/Startseite/startseite-node.html" target = "_blank"> 
+    <img class = "partner-logos" src = "http://socialscienceworks.org/wp-content/uploads/2016/08/logo-bamf.gif">
+    </a>
     
     <?php get_footer ();?>
     

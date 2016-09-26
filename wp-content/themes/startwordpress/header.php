@@ -4,16 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0sql">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    
     <?php wp_head(); ?>
   </head>
 
@@ -30,13 +26,14 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">
-        <img src ="http://socialscienceworks.org/wp-content/uploads/2016/07/ssw_150_131.jpg" class = "brand">
+        <!--<img src ="/wp-content/themes/startwordpress/theme_images/ssw-long.jpg" class = "brand">-->
+        <h1 class = "brand-name">Social Science Works</h1>
       </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-       <div id= "wp-menu">
+       <div id= "wp-menu" class = "navbar-right">
           <?php /* Primary navigation */
           wp_nav_menu( array(
             'menu' => 'top_menu',
@@ -51,24 +48,7 @@
       
       
      
-      <!--  <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>-->
-      <!--  <li class="dropdown">-->
-      <!--    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>-->
-      <!--    <ul class="dropdown-menu">-->
-      <!--      <li><a href="/about">About</a></li>-->
-      <!--      <li><a href="/history">History</a></li>-->
-      <!--      <li><a href="/team">Team</a></li>-->
-      <!--      <li role="separator" class="divider"></li>-->
-      <!--      <li><a href="/assosciates">Associates</a></li>-->
-      <!--      <li role="separator" class="divider"></li>-->
-      <!--      <li><a href="">One more separated link</a></li>-->
-      <!--      <li><a href="#">Link</a></li>-->
-      <!--      <li class="dropdown">-->
-      <!--    </ul>-->
-      <!--  </li>-->
-      <!--    <li><a href="#">Current Projects</a></li>-->
-      <!--    <li><a href="/">Blog</a></li>-->
-      <!--    <li><a href="#">Contact</a></li>-->
+      
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
