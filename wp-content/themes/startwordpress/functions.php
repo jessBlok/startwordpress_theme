@@ -79,7 +79,7 @@ register_sidebar(array('name'=>'FooterWidgetAreaThree',
 
 /*Make Bootstrap Navbor compaitble with Wordpress Menus*/
 
-// Register custom navigation walker
+/* Register custom navigation walker*/
 
   require_once('wp_bootstrap_navwalker.php');
 
@@ -93,19 +93,23 @@ function theme_add_bootstrap() {
 	wp_enqueue_style( 'style-css', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '3.0.0' );
 	wp_enqueue_script( 'app-js', get_template_directory_uri() . '/js/app.js', array('jquery'));
-  
+  wp_enqueue_script ('fontloader', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js');
   
 }
  
 add_action( 'wp_enqueue_scripts', 'theme_add_bootstrap' );
 
 
- function load_fonts() {
-            wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Oswald|Open+Sans|Impact');
-            wp_enqueue_style( 'googleFonts');
-        }
-    
-    add_action('wp_print_styles', 'load_fonts');
+// function google_fonts() {
+// 	$query_args = array(
+// 		'family' => 'Open+Sans:400,700|Oswald:400',
+// 		'subset' => 'latin,latin-ext',
+	
+// 	);
+// 	wp_register_style( 'google_fonts', add_query_arg( $query_args, "//fonts.googleapis.com/css" ), array(), null );
+//             }
+            
+// add_action('wp_enqueue_scripts', 'google_fonts');
   
   
 

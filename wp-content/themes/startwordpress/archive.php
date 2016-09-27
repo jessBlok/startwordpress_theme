@@ -14,7 +14,7 @@
   
 						?>
 
-		</div> <!-- /.col -->
+	
 	</div> <!-- /.row -->
 
 <?php get_footer(); ?>

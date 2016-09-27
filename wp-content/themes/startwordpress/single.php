@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 	<div class = "container">
-	<div class="row">
+		<div class="row">
 		<div class="col-sm-12">
 
 			<?php 
@@ -10,6 +10,8 @@
 					
 				endwhile; endif; 
 			?>
+			
+		<hr>	
 			
 			<?php
 			if ( comments_open() || get_comments_number() ) :
