@@ -25,167 +25,52 @@ h6, .h6 {
   color: #333;
 }
 
- a {
-  color: #23937E;
+a {
+	color: #D85027;
 }
 
-/*
- * Override Bootstrap's default container.
- */
-
-/*@media (min-width: 1200px) {*/
-/*  .container {*/
-/*    width: 970px;*/
-/*  }*/
-/*}*/
 
 
-/*
- * Masthead for nav
- */
+/* unvisited link */
+body:link {
+	color: grey;
+}
 
-/*.blog-masthead {*/
-/*  background-color: #fff;*/
-/*  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);*/
-/*          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);*/
-/*}*/
+/* visited link */
+body.a:visited {
+	color: grey;
+}
 
-/* Nav links */
-/*.blog-nav-item {*/
-/*  position: relative;*/
-/*  display: inline-block;*/
-/*  padding: 10px;*/
-/*  font-weight: 500;*/
-/*  color: #cdddeb;*/
-/*}*/
-/*.blog-nav-item:hover,*/
-/*.blog-nav-item:focus {*/
-/*  color: #fff;*/
-/*  text-decoration: none;*/
-/*}*/
+/* mouse over link */
+body.a:hover {
+	color: grey;
+}
 
-/* Active state gets a caret at the bottom */
-/*.blog-nav .active {*/
-/*  color: #fff;*/
-/*}*/
-/*.blog-nav .active:after {*/
-/*  position: absolute;*/
-/*  bottom: 0;*/
-/*  left: 50%;*/
-/*  width: 0;*/
-/*  height: 0;*/
-/*  margin-left: -5px;*/
-/*  vertical-align: middle;*/
-/*  content: " ";*/
-/*  border-right: 5px solid transparent;*/
-/*  border-bottom: 5px solid;*/
-/*  border-left: 5px solid transparent;*/
-/*}*/
+/* selected link */
+a:active {
+	color: grey;
+}
 
-/*.blog-nav li {*/
-/*    position: relative;*/
-/*    display: inline-block;*/
-/*    padding: 10px;*/
-/*    font-weight: 500;	*/
-/*}*/
-/*.blog-nav li a {*/
-/*    color: #fff;*/
-/*}*/
+btn:link {
+	color: #fff;
+}
 
+.alignright {
+	float: right;
+	margin: 0 0 1em 1em;
+}
 
-/*
- * Blog name and description
- */
+.alignleft {
+	float: left;
+	margin: 0 1em 1em 0;
+}
 
-/*.blog-header {*/
-/*  padding-top: 20px;*/
-/*  padding-bottom: 20px;*/
-/*}*/
-/*.blog-title {*/
-/*  margin-top: 30px;*/
-/*  margin-bottom: 0;*/
-/*  font-size: 60px;*/
-/*  font-weight: normal;*/
-/*}*/
-/*.blog-description {*/
-/*  font-size: 20px;*/
-/*  color: #999;*/
-/*}*/
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-
-/*
- * Main column and sidebar layout
- */
-
-/*.blog-main {*/
-/*  font-size: 18px;*/
-/*  line-height: 1.5;*/
-/*}*/
-
-/* Sidebar modules for boxing content */
-/*.sidebar-module {*/
-/*  padding: 15px;*/
-/*  margin: 0 -15px 15px;*/
-/*}*/
-/*.sidebar-module-inset {*/
-/*  padding: 15px;*/
-/*  background-color: #f5f5f5;*/
-/*  border-radius: 4px;*/
-/*}*/
-/*.sidebar-module-inset p:last-child,*/
-/*.sidebar-module-inset ul:last-child,*/
-/*.sidebar-module-inset ol:last-child {*/
-/*  margin-bottom: 0;*/
-/*}*/
-
-
-/* Pagination */
-/*.pager {*/
-/*  margin-bottom: 60px;*/
-/*  text-align: left;*/
-/*}*/
-/*.pager > li > a {*/
-/*  width: 140px;*/
-/*  padding: 10px 20px;*/
-/*  text-align: center;*/
-/*  border-radius: 30px;*/
-/*}*/
-
-
-/*
- * Blog posts
- */
-
-/*.blog-post {*/
-/*  margin-bottom: 60px;*/
-/*}*/
-/*.blog-post-title {*/
-/*  margin-bottom: 5px;*/
-/*  font-size: 40px;*/
-/*}*/
-/*.blog-post-meta {*/
-/*  margin-bottom: 20px;*/
-/*  color: #999;*/
-/*}*/
-
-
-/*
- * Footer
- */
-
-/*.blog-footer {*/
-/*  padding: 40px 0;*/
-/*  color: #999;*/
-/*  text-align: center;*/
-/*  background-color: #f9f9f9;*/
-/*  border-top: 1px solid #e5e5e5;*/
-/*}*/
-/*.blog-footer p:last-child {*/
-/*  margin-bottom: 0;*/
-/*}*/
-
-
-/*ADDING CUSTOM CSS*/
 
 @media screen and (min-width:768px){
 .navbar-nav li a {
@@ -198,66 +83,40 @@ h6, .h6 {
 	color: #555;
 	background-color: #fff;
 }
-.navbar-default .navbar-nav > .active > a:hover {
-  background-color: #fff;
-}
+
 
  .navbar-default {
   border-color: #fff;
 }
 
-.row {
-  padding: 0px;
-  margin: 0px;
+#ssw-intro-image {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url(http://socialscienceworks.org/wp-content/uploads/2016/07/Untitled-design-1.jpg);
+  background-size: cover;
+  
 }
 
-#main-header {
-  height: 100%;
-  padding-top: 0px;
+.addspace {
+    height: 100px;
 }
-  
 
 .jumbotron {
-  
-  height: 100%;
-}
-
-#ssw-intro-image {
-  background: #000 url("http://socialscienceworks.org/wp-content/uploads/2016/07/Untitled-design-1.jpg") center center;
-  
-  
-}
-
-.jumbotron p {
   text-align: center;
-}
+  height: 350px;
+  }
+
+
 
  .jumbotron h1 {
-   font-family: 'Oswald', arial !important;
+   font-family: 'Oswald', sans-serif;
    color: #fff;
-   text-align: center;
-  font-size: 40px;
-  padding: 20px;
+   font-size: 40px;
+   padding: 20px;
 
 }
-
-#jumbotron-button {
-  font-family: "Oswald";
-  background-color: transparent;
-  border:  1px solid #fff;
-  margin: 0px;
-}
-  
-  
-  
-
-
-/*.brand {*/
-/*  padding-left: 25px;*/
-/*}*/
-
-
-
 
 
 .navbar {
@@ -265,155 +124,150 @@ h6, .h6 {
   font-size: 20px;
   color: #fff;
   background-color: #fff;
-  height: 100%;
   margin: 0px auto;
-  /*text-align: center;*/
-  vertical-align: middle;
- 
+
 }
 
 .navbar-brand {
   height: 100%;
-/*  padding: 0px;*/
-/*  margin: 0px;*/
- 
+
 }
 
-#wp-menu {
-  /*padding: 45px;*/
-  background-color: #fff;
-  float: right;
-  vertical-align: middle;
-  
-}
-
-@media screen and (max-width:768px){
-#wp-menu {
-  /*padding: 45px;*/
-  background-color: #fff;
-  float: none;
-  vertical-align: middle;
-  
-}
-}
-
-
-
-.navbar .nav-collapse .nav {
-  background-color: #fff;
-    }
 
 
 /*Style Projects Section of Front Page*/
 
+ .jumbotron-button {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  background-color: transparent;
+  border:  1px solid #fff;
+}
+
+.jumbotron-button:hover{
+ background: rgba(250,250,250, 0.2);
+}
 
 #projects-section {
-  background-color: #fff;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 30px;
-  
-  
-    }
+ 
+}
 
 #projects-section h1 {
   font-family: "Oswald";
   color: white;
   text-transform: uppercase;
-  background-color: black
+  background-color: black;
   
 }  
-  
-#projects-section h2 {
-  font-family: "Oswald";
+
+.backimage {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  border-radius: 5px;
+}  
+
+.backimage1 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(http://socialscienceworks.org/wp-content/uploads/2016/07/darkened.jpg);
+}
+
+.backimage2 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(http://socialscienceworks.org/wp-content/uploads/2016/07/354920832_3bcb5f5147_z.jpg);
+}
+
+.backimage3 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(http://socialscienceworks.org/wp-content/uploads/2016/07/15466144163_2a8fc9eca4_z.jpg);
+}
+
+
+.backimage4 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(http://socialscienceworks.org/wp-content/uploads/2016/07/16955638562_90bb5452f7_z.jpg);
+}
+
+@media screen and (max-width: 400px) {
+  .backimage {
+    width: 300px;
+    height: 400px;
+  }
+  .container {
+    padding: 2px;
+  }
+}
+
+
+.caption h2 {
+  font-family: "Oswald", sans-serif;
   color: #fff;
-  font-size: 35px;
-  }  
+  
+}
 
 
-.project-text-overlays {
-  font-family: "Open Sans";
+.caption p {
+  font-family: "Open Sans", sans-serif;
   color: #000;
   font-size: 20px;
   background-color: #fff;
-  opacity: 0.7;
+  opacity: 0.5;
 
-   }  
+    }  
 
-.fa {
-  color: #000;
-}
 
-#first-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
+
+.caption .captiondesign {
+  position: absolute;
+  top: 100px;
+  left:0;
   
 }
 
-#deliberation {
-  background: #000 url("http://socialscienceworks.org/wp-content/uploads/2016/07/darkened.jpg")  no-repeat;
-  height: 100%;
-  
-}
-
-#second-opinions {
-  background: #000 url("http://socialscienceworks.org/wp-content/uploads/2016/07/354920832_3bcb5f5147_z.jpg") no-repeat;
-  height: 100%;
-}
-
-
-#training {
-  background: #000 url("http://socialscienceworks.org/wp-content/uploads/2016/07/15466144163_2a8fc9eca4_z.jpg") no-repeat;
-  height: 100%;
-  
-}
-  
-#science-watch {
-  background: #000 url("http://socialscienceworks.org/wp-content/uploads/2016/07/16955638562_90bb5452f7_z.jpg") no-repeat;
-  height: 100%;
-  
-}  
-  
-
-
-.grid {
-  height: 100%;
-  
-}/*Style Posts Section of Front Page*/
-
-
-#blog-section {
-  padding-bottom: 10px;
-  background-color: white;
-  color: #000;
-  margin: 0 auto;
+.col-centered {
+  display: inline-block;
   float: none;
 }
 
 
 
 
-.container-fluid {
-  margin-left: 2px;
-  margin-right: 2px;
-  
-  }
+/*Style Posts Section of Front Page*/
 
 
-#blog-section .fa {
-  color: grey;
+#blog-section {
+  padding-bottom: 10px;
+  color: #000;
+ 
 }
 
 
 #blog-section h1 {
-   color: white;
+  color: white;
   font-family: "Oswald";
-   text-transform: uppercase;
-   text-align: center;
-   background-color: black;
-   height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: black;
+  height: 100%;
   
 }
 
@@ -429,7 +283,6 @@ h6, .h6 {
 }
 
 .post-div {
-    
     height: 100%;
   
 }
@@ -470,7 +323,6 @@ h6, .h6 {
 #team-section h1 {
   font-family: "Oswald";
   color: #fff;
-  margin: 25px;
   text-transform: uppercase;
 }
 
@@ -484,9 +336,8 @@ margin-bottom: 20px;
   
   
   #partners-section {
-  background-color: #fff;
-  height: 100%px;
   text-align: center;
+  height: 100%;
   padding: 15px;
   
   
@@ -503,7 +354,6 @@ margin-bottom: 20px;
 .partner-logos {
   padding: 15px;
 }
-
 
 
   /*Style Intro Text Section*/
@@ -524,7 +374,6 @@ margin-bottom: 20px;
   }
   
   #bottom-panel {
-    background-color: #fff;
     color: #000;
     font-family: "Oswald";
     font-size: 20px;
@@ -534,25 +383,23 @@ margin-bottom: 20px;
   }
   
   .blog-footer {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    background-color: #fff;
-    padding: 15px;
+        padding: 15px 15px 0;
   }
   
   
   /*Widget Styling*/
   
-  .widget {
-    list-style-type: none;
-   
-  }
+ 
+  .widget ul {
+	color: #fff;
+	list-style-type: none;
+}
   
   .widgettitle {
     font-family: "Oswald";
     text-align: center;
     padding: 10px;
-     color: #fff;
+    color: #fff;
   }
   
   
@@ -569,7 +416,7 @@ margin-bottom: 20px;
   
   .page-body-text {
     font-family: "Open Sans";
-    font-size: 20px;
+    font-size: 18px;
   }
   
   /*Style Single Blog Post Page*/
@@ -620,9 +467,7 @@ margin-bottom: 20px;
   }
 }
   
-.addspace {
-    height: 100px;
-}
+
 
 .brand-name {
   font-family: "Oswald";
