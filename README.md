@@ -1,31 +1,19 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+This is a custom theme for Social Science Wors gUG, a nonprofit working in Potsdam, Germany.
 
 
-Welcome to your WordPress website on Cloud9 IDE!
+Features:
 
-To get you started, we've already...
+Multilingual:
+Integration with WPML multilingual plugin
+String wrapping with getttext
+Automatic pot file creation via gulp
 
-1) Started MySQL using:
-
-   $ mysql-ctl start
-
-2) Clicked the Run Project button
-
-3) Clicked on Preview > Preview Running Application
-
-And now you are ready to configure your WordPress admin interface!
-
-Happy coding!
-The Cloud9 IDE team
+Responsive styling via Bootstrap and custom media queries.
+Integration of Boostrap nav with WP via WP-Navwalker module.
+Custom templates for pages, posts, and archives.
+Custom filters of WP Loop by category, for example in the News Category. 
+Custom widget areas.  
 
 
-## Support & Documentation
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+
