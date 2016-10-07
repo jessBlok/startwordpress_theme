@@ -1,4 +1,4 @@
-This is a custom theme for Social Science Wors gUG, a nonprofit working in Potsdam, Germany.
+This is a custom theme for Social Science Works gUG, a nonprofit working in Potsdam, Germany.
 
 
 Features:
