@@ -25,6 +25,6 @@
       </div> <!--End Row-->
     </footer>
     
-  
+  <?php wp_footer(); ?>
   </body>
 </html>

@@ -3,20 +3,20 @@
 <!--JUMBOTRON ENTRY HERO-->
 
 <div class = "container">
+    
     <div class="row">
 
            <div class="jumbotron" id="ssw-intro-image">
-                <h1><strong> <?php  _e('Putting social science to use for modern democracies.','startwordpress')?> </strong></h1>
-                <div class = "container addspace">
-                </div><!--End container addspace-->
+                <h1 class = "fronttext"><strong> <?php  _e('Putting social science to use for modern democracies.','startwordpress')?> </strong></h1>
+                
            </div> <!--End Jumbotron-->  
-        </div> <!--End Row--> 
+    </div> <!--End Row--> 
     
 
 
 <!-- INTRO AND NEWS SECTION WITH 2 COLUMNS--> 
     
-    <div class = "row">
+    <div class = "row second-row">
             <div class = "col-md-6" id = "intro-text-section">
                 <h3 class= "intro-text"> <?php  _e ('Social Science Works is a social enterprise using social scientific knowledge to improve civil society. We offer services based on social research that create value for agents in the public, the academic and the non-profit sectors.', 'startwordpress')?></h3>
             </div><!--End intro text section-->
@@ -47,52 +47,52 @@
     
    
     <div id = "projects-section">
-        <div>
+       
         <h1><?php  _e('Our Work', 'startwordpress')?></h1>
-        </div> 
+       
         
        
-            <div class="row"> 
-                <div class = "col-sm-6 col-centered backimage backimage1 caption" >
+         <div class = "flexbox">
+                <div class = "flexitem backimage backimage1 caption" >
+                    
                     
                             <div class = "captiondesign">
-                            <h2> <strong><?php  _e('Projects', 'startwordpress')?></strong></h2>
+                            <h2> <?php  _e('Projects', 'startwordpress')?></h2>
                             <p> <?php  _e('We partner with governments, foundations, and civil society to apply social science in  developing on the ground projects', 'startwordpress')?></p>
                             <a class="btn btn-lg jumbotron-button"  href="/projects" role="button"><?php  _e('Learn more', 'startwordpress')?></a>
                             </div>
-                </div> <!--End Top Left-->
+                    </div>        
+             <!--End Top Left-->
               
-                <div class="col-sm-6 col-centered backimage backimage2 caption"  >
+                <div class="flexitem backimage backimage2 caption"  >
                         
                             <div class = "captiondesign">
-                            <h2> <strong> <?php  _e('Second Opinions', 'startwordpress')?></strong></h2>
+                            <h2>  <?php  _e('Second Opinions', 'startwordpress')?></h2>
                             <p><?php  _e('We provide expert assessment of existing social research for governments, nonprofits, and journalists', 'startwordpress')?></p>
                             <a class="btn btn-lg jumbotron-button"  href="/social-science-watch" role="button"><?php  _e('Learn more', 'startwordpress')?></a>
                             </div>  
                 </div> <!--End Top Right-->
-            </div><!--End Row-->
-            
-        
-            <div class="row">
-                <div class="col-sm-6 col-centered backimage backimage3 caption">
+            </div><!--End Flexbox-->    
+            <div class = "flexbox">
+                <div class="flexitem backimage backimage3 caption">
                             <div class = "captiondesign">
-                                                        <h2> <strong><?php  _e ("Training", 'startwordpress')?></strong></h2>
+                            <h2> <?php  _e ("Training", 'startwordpress')?></h2>
                             <p class= "project-text-overlays"> <?php  _e("We teach academic social scientists to share and apply their research and help end users to correctly interpret it", "startwordpress")?></p>
                             <a class="btn btn-lg jumbotron-button"  href="/social-science-research-and-exchange" role="button"><?php  _e ("Learn more", 'startwordpress')?></a>
                             </div>
                </div><!--End Bottom Left-->
                   
-               <div class="col-sm-6 col-centered backimage backimage4 caption" >
+               <div class="flexitem backimage backimage4 caption" >
                             <div class = "captiondesign">
-                            <h2> <strong><?php  _e("Science Watch", 'startwordpress')?></strong></h2>
+                            <h2> <?php  _e("Science Watch", 'startwordpress')?></h2>
                             <p class= "project-text-overlays"><?php  _e("Ongoing commentary and publications on the quality and relevance of the academic social sciences", 'startwordpress')?></p>
                             <a class="btn btn-lg jumbotron-button"  href="/researching-social-science" role="button"><?php  _e ("Learn more", 'startwordpress')?></a>
                             </div>
                </div><!--End bottom right-->
-            </div><!--End Row-->
+          
         
         </div><!--End flex container-->
-    
+    </div>
     
    
   
@@ -140,19 +140,19 @@
 
   <!--TEAM SECTION-->     
         
-    <div class = "row" id = "team-section">
+    <div class = "row team" id = "team-section">
         <h1><?php  _e('Meet the Team', 'startwordpress')?></h1>
             <div class="col-md-4">
                   <img src="http://socialscienceworks.org/wp-content/uploads/2016/07/blokland_square.jpg"  class="img-circle circle-photos" "img-responsive">
-                  <p><a class="btn jumbotron-button btn-lg" id= "jumbotron-button" href="/team/#blokland" role="button">Dr. Hans Blokland</a></p>            
+                  <p><a class=" btn btn-lg jumbotron-button"  href="/team/#blokland" role="button">Dr. Hans Blokland</a></p>            
             </div><!--End First Team Member-->
             <div class="col-md-4">
                   <img src="http://socialscienceworks.org/wp-content/uploads/2016/07/couglan_square.jpg" class="img-circle circle-photos" "img-responsive">
-                  <p><a class="btn jumbotron-button btn-lg" id= "jumbotron-button" href="/team/#coughlan" role="button">Sarah Coughlan MA</a></p>
+                  <p><a class="btn btn-lg jumbotron-button"  href="/team/#coughlan" role="button">Sarah Coughlan MA</a></p>
             </div><!--End Second Team Member-->
             <div class="col-md-4">
                   <img src="http://socialscienceworks.org/wp-content/uploads/2016/07/wadt-square.png" class="img-circle circle-photos" "img-responsive">
-                  <p><a class="btn jumbotron-button btn-lg" id= "jumbotron-button" href="/team/#wadt" role="button">Nils Wadt</a></p>
+                  <p><a class="btn btn-lg jumbotron-button"  href="/team/#wadt" role="button">Nils Wadt</a></p>
             </div><!--End Third Team Member-->
     </div>   <!--End Team Secion-->
   

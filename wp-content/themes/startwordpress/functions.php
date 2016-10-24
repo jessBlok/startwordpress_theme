@@ -1,5 +1,9 @@
 <?php
 
+
+
+ 
+
 function socent_theme_support() {
 // Adding theme support for post formats and post thumbnails
 
@@ -22,8 +26,7 @@ add_action ('after_setup_theme', 'socent_theme_support');
 
 
 
-/*SET THUMBNAIL DEFAULT SIZE*/
-//  set_post_thumbnail_size (380, 190);
+
 
 /*SET ALL POST IMAGES TO BOOTSTRAP RESPONSIVE CLASS*/
 
@@ -77,7 +80,14 @@ register_sidebar(array('name'=>'FooterWidgetAreaThree',
 'after_title' => '</h3>',
 ));
 
-/*Make Bootstrap Navbor compaitble with Wordpress Menus*/
+register_sidebar(array('name'=>'MiddleSideBar',
+'before_widget' => '<li class="widget">',
+'after_widget' => '</li>',
+'before_title' => '<h2 class="widgettitle">',
+'after_title' => '</h3>',
+));
+
+/*Make Bootstrap Navbar compaitble with Wordpress Menus*/
 
 /* Register custom navigation walker*/
 
@@ -100,18 +110,6 @@ function theme_add_bootstrap() {
 add_action( 'wp_enqueue_scripts', 'theme_add_bootstrap' );
 
 
-// function google_fonts() {
-// 	$query_args = array(
-// 		'family' => 'Open+Sans:400,700|Oswald:400',
-// 		'subset' => 'latin,latin-ext',
-	
-// 	);
-// 	wp_register_style( 'google_fonts', add_query_arg( $query_args, "//fonts.googleapis.com/css" ), array(), null );
-//             }
-            
-// add_action('wp_enqueue_scripts', 'google_fonts');
-  
-  
 
 function enqueue_our_required_stylesheets() {
 	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'); 

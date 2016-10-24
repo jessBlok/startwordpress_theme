@@ -72,6 +72,41 @@ btn:link {
 }
 
 
+/* Style Topbar*/
+
+.topbar {
+  background-color: #000;
+  color: #fff;
+  height: 40px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  }
+
+
+.topbar li {
+  float: right;
+}
+
+.topbar li a {
+    line-height: 40px;
+    font-size: 15px;
+    color: white;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+}
+
+ .hovergrow a:hover {
+     font-size: 22px;
+    
+}
+
+/*Style Main Navbar*/
+
 @media screen and (min-width:768px){
 .navbar-nav li a {
  line-height: 50px;
@@ -99,18 +134,18 @@ btn:link {
   
 }
 
-.addspace {
-    height: 100px;
-}
+
 
 .jumbotron {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   height: 350px;
   }
 
 
 
  .jumbotron h1 {
+   align-self: center;
    font-family: 'Oswald', sans-serif;
    color: #fff;
    font-size: 40px;
@@ -137,15 +172,23 @@ btn:link {
 
 /*Style Projects Section of Front Page*/
 
- .jumbotron-button {
+
+
+.jumbotron-button {
   font-family: 'Oswald', sans-serif;
+  font-size: 18px;
   color: #fff;
   background-color: transparent;
   border:  1px solid #fff;
 }
 
-.jumbotron-button:hover{
+.jumbotron-button:hover {
  background: rgba(250,250,250, 0.2);
+ color: #fff;
+ }
+
+.second-row {
+  padding-top: 25px;
 }
 
 #projects-section {
@@ -164,11 +207,10 @@ btn:link {
 }  
 
 .backimage {
-  width: 400px;
-  height: 400px;
+  
   background-size: cover;
   border-radius: 5px;
-}  
+  }  
 
 .backimage1 {
   background: 
@@ -207,49 +249,52 @@ btn:link {
     url(http://socialscienceworks.org/wp-content/uploads/2016/07/16955638562_90bb5452f7_z.jpg);
 }
 
-@media screen and (max-width: 400px) {
-  .backimage {
-    width: 300px;
-    height: 400px;
+@media screen and (max-width: 600px) {
+  .flexbox {
+    flex-wrap: wrap;
   }
-  .container {
-    padding: 2px;
+  
+  .flexitem {
+       min-width: 100%;
   }
+  
 }
 
 
 .caption h2 {
   font-family: "Oswald", sans-serif;
   color: #fff;
-  
+  font-size: 40px;
+  font-weight: 500;
 }
 
 
 .caption p {
   font-family: "Open Sans", sans-serif;
-  color: #000;
+  color: #fff;
   font-size: 20px;
-  background-color: #fff;
-  opacity: 0.5;
-
-    }  
+  padding: 20px;
+      }  
 
 
 
 .caption .captiondesign {
-  position: absolute;
-  top: 100px;
-  left:0;
-  
+  align-self: center;
 }
 
-.col-centered {
-  display: inline-block;
-  float: none;
-}
+.flexbox {
+  display: flex;
+  justify-content: center;
+  margin: -5px;
+  }
 
-
-
+.flexitem {
+  width: 50%;
+  min-height: 400px;
+  margin: 5px;
+  justify-content: space-between;
+  display: flex;
+  }
 
 /*Style Posts Section of Front Page*/
 
@@ -289,7 +334,7 @@ btn:link {
 
 .entry-meta {
   text-align: center;
-  color: dark grey;
+  color:  grey;
   font-family: "Open Sans";
   
  }
@@ -303,11 +348,16 @@ btn:link {
 
 #excerpt-content {
   font-family: "Open Sans";
-  text-align: justify;
   color:  grey;
   line-height: 1.5;
   padding: 10px;
   }
+  
+  @media (max-width: 500px) {
+#excerpt-content p {
+      margin: 0 10px 10px;
+   }
+}
   
   
 /*Style Team Section of Front Page*/
@@ -318,12 +368,18 @@ btn:link {
   height: 100%;
   text-align: center;
   padding: 15px;
+  border-radius: 6px;
 }
 
 #team-section h1 {
   font-family: "Oswald";
   color: #fff;
   text-transform: uppercase;
+}
+
+#team-section .btn-jumbotron {
+  color: #fff;
+
 }
 
 
@@ -435,7 +491,15 @@ margin-bottom: 20px;
   
   .post-content { 
     line-height: 1.5;
+    padding: 0 10px 0;
+    
   }
+  
+@media (max-width: 992px) {
+   .post-content {
+      margin: 10px;
+   }
+}
   
  .aligncenter {
    display:block;

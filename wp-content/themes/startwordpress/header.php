@@ -8,13 +8,30 @@
     <meta name="author" content="">
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    
 
     
     <?php wp_head(); ?>
   </head>
 
   <body>
+  <row>
+    
+ 
+  <ul class="topbar">
+    <div class = container>
+      
+      <li class= hovergrow><a href="http://www.twitter.com/SocialSciWorks"> <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+      </a></li>
+      <li class= hovergrow><a href="http://www.facebook.com/socialscienceworks"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+      </a></li>
+      <li><a href ="/forums">Forum Login</a></li>
+    </div>
+  </ul>
 
+  </row> <!--End Row-->   
+
+<row>
 <nav class="navbar navbar-default">
     <div class="container">
     <div class="navbar-header">
@@ -45,7 +62,7 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-->
 </nav>
-                      
+</row>                      
          
     
   

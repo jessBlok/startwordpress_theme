@@ -1,8 +1,6 @@
-<?php if ( is_active_sidebar( 'MiddleSidebar' ) ) : ?>
-	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-		<?php dynamic_sidebar( 'home_right_1' ); ?>
-	</div><!-- #primary-sidebar -->
-<?php endif; ?><
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('MiddleSideBar') ) : ?>
+<?php endif; ?>
+
           
        
       
